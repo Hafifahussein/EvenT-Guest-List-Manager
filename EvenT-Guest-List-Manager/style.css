@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
+}
+
+form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: green;
+    outline: none;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0;
+}
+
+button:hover,
+button:focus {
+    background-color: green;
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: bisque;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    color: black;
+}
+
+li.attending {
+    background-color: #d4edda;
+    font-weight: 700;
+    color: #155724;
+}
+
+li div.guest-info {
+    display: flex;
+    flex-direction: column;
+}
+
+li span.timestamp {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+li button {
+    margin-left: 12px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+li button.toggle-rsvp {
+    background-color: #007bff;
+    color: white;
+}
+
+li button.toggle-rsvp:hover,
+li button.toggle-rsvp:focus {
+    background-color: #0056b3;
+    outline: none;
+}
+
+li button.remove-guest {
+    background-color: #dc3545;
+    color: white;
+
+}
+
+li button.remove-guest:hover,
+li button.remove-guest:focus {
+    background-color: #a71d2a;
+    outline: none;
+}
+
