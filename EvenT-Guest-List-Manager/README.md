@@ -27,7 +27,7 @@ You only need a modern web browser to run this application. No additional softwa
 
 ## Author
 Hafifa Hussein
-
+https://github.com/Hafifahussein/EvenT-Guest-List-Manager
 ## license
 MIT License
  
